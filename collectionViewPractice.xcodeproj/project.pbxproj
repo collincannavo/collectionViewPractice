@@ -13,7 +13,6 @@
 		B6459F6D1F340BF4000DD526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6459F6C1F340BF4000DD526 /* Assets.xcassets */; };
 		B6459F701F340BF4000DD526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6459F6E1F340BF4000DD526 /* LaunchScreen.storyboard */; };
 		B6459F7B1F340C87000DD526 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6459F7A1F340C87000DD526 /* TestCollectionViewController.swift */; };
-		B6459F7F1F340C9F000DD526 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6459F7D1F340C9F000DD526 /* CustomCollectionViewCell.swift */; };
 		B6459F801F340C9F000DD526 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6459F7E1F340C9F000DD526 /* CustomCollectionViewCell.xib */; };
 		B6459F831F34112F000DD526 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6459F821F34112F000DD526 /* Card.swift */; };
 		B6459F851F341135000DD526 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6459F841F341135000DD526 /* Person.swift */; };
@@ -29,7 +28,6 @@
 		B6459F6F1F340BF4000DD526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6459F711F340BF4000DD526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6459F7A1F340C87000DD526 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
-		B6459F7D1F340C9F000DD526 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		B6459F7E1F340C9F000DD526 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		B6459F821F34112F000DD526 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B6459F841F341135000DD526 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 		B6459F7C1F340C8B000DD526 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B6459F7D1F340C9F000DD526 /* CustomCollectionViewCell.swift */,
 				B6459F7E1F340C9F000DD526 /* CustomCollectionViewCell.xib */,
 			);
 			name = View;
@@ -203,7 +200,6 @@
 				B6459F831F34112F000DD526 /* Card.swift in Sources */,
 				B6459F6B1F340BF4000DD526 /* collectionViewPractice.xcdatamodeld in Sources */,
 				B6459F871F341503000DD526 /* Template.swift in Sources */,
-				B6459F7F1F340C9F000DD526 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +365,7 @@
 				B6459F761F340BF4000DD526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
