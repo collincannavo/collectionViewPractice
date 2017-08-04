@@ -10,6 +10,17 @@ import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var cellLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBAction func shareButtonTapped(_ sender: Any) {
+        
+    }
+    
+    @IBAction func companyLogoTapped(_ sender: Any) {
+        
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
